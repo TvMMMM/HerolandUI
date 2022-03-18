@@ -1,0 +1,56 @@
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.animate-logo {
+  transition: 0.5s;
+}
+
+.animate-logo:hover {
+  transform: scale(1.1);
+}
+
+.bg-image {
+  width: 100%;
+  height: auto;
+}
+
+.banner-content > div > span {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: rgb(137, 248, 137);
+  background-color: rgba(5, 5, 5, 0.633);
+  width: 15em;
+  text-align: center;
+}
+
+.trailer-btn {
+  color: rgb(137, 248, 137);
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgba(255, 0, 0, 0.204);
+  padding: 0.5rem;
+  width: 10rem;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.trailer-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.banner-btn {
+  width: 350px;
+  height: auto;
+}
+
+.animate-btn {
+  transition: 0.5s;
+}
+
+.animate-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
